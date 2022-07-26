@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+<body class="animate__animated animate__fadeIn">
+
+  <header>
+    <div>
+      <img src="./images/logo.svg" alt="Shortly-logo" class="logo">
+    </div>
+
+    <button class="mobile-nav-toggle"></button>
+
+    <nav class="nav">
+      <ul class="nav-menu"> 
+        <li> <a href="#" class="nav-link"> Features</a> </li>
+        <li> <a href="#" class="nav-link">Pricing</a> </li> 
+        <li> <a href="#" class="nav-link">Resources</a></li>
+      </ul>
+
+      <div class="cta">
+        <button class="btn btn-transparent"><a href="#">Login</a></button>
+        <button class="btn btn-green sign"><a href="#">Sign Up</a></button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="hero-section">
+   <div class="hero-image-container">
+      <img src="./images/illustration-working.svg" alt="Illusration-image">
+    
+    </div>
+
+   <div class="hero-text-container">
+    <h1>More than just shorter links</h1>
+    <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+    <button class="btn btn-green">Get Started</button>
+   </div>
+  </main>
+
+<div class="blend">
+  <section class="shortening-section">
+    <form action="">
+      <input type="url" placeholder="Shorten a link here..." required name="query" class="">
+      <button type="submit" class="btn-green"id="shorten">Shorten it</button>
+    </form>
+  </section>
+
+<div class="shortened-links"></div>
+
+  <article class="statistics">
+    <h2>Advanced Statistics</h2>
+    <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+  </article>
+
+  <div class="cards">
+   
+    <article class="card one">
+      <img src="./images/icon-brand-recognition.svg" alt="Brand recognition">
+      <h3>Brand Recognition</h3>
+      <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+    </article>
+    
+    <article class="card two">
+      <img src="./images/icon-detailed-records.svg" alt="records-logo">
+      <h3>Detailed Records</h3>
+      <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+    </article>
+    
+    <article class="card three">
+      <img src="./images/icon-fully-customizable.svg" alt="customizable-logo">
+      <h3>Fully customizable</h3>
+      <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions</p>
+    </article>
+</div>
+  </div>
+
+<!--end of blend-->
+
+<section class="get-started">
+  <h3>Boost your links today</h3>
+  <button class="btn btn-green">Get Started</button>
+</section>
+
+<footer>
+  <div class="footer-logo">
+    <img src="./images/Shortly.png" alt="">
+  </div>
+
+  <div class="features-link">
+    <h4>Features</h4>
+    <ul>
+      <li>Link shortening</li>
+      <li>Branded Links</li>
+      <li>Analytics</li>
+    </ul>
+  </div>
+
+  <div class="resources-link">
+    <h4>Resources</h4>
+    <ul>
+      <li>Blog</li>
+      <li>Developers</li>
+      <li>Support</li>
+    </ul>
+  </div>
+
+  <div class="company-links">
+    <h4>Company</h4>
+    <ul>
+      <li>About</li>
+      <li>Our Team</li>
+      <li>Careers</li>
+    <!--<li>Content</li> -->
+    </ul>
+  </div>
+
+  <div class="social-media">
+    <ul>
+      <li>
+        <a href="#">
+          <img src="./images/icon-facebook.svg" alt="Facebook-loogo">
+        </a>
+      </li>
+      <li>
+        <a href="#"><img src="./images/icon-twitter.svg" alt="Twitter-icon"></a>
+      </li>
+      <li>
+        <a href="#"><img src="./images/icon-pinterest.svg" alt="Pinterest-logo"></a>
+      </li>
+      <li><a href="#"><img src="./images/icon-instagram.svg" alt="Ig-logo"></a></li>
+    </ul>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
